@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "target": "es6",
+    "rootDir": "./",
+    "esModuleInterop": true,
+    "strict": true,
+    "typeRoots": ["src/types/interfaces", "./node_modules/@types"],
+    "outDir": "dist",
+    "allowSyntheticDefaultImports": true
+  }
+}
